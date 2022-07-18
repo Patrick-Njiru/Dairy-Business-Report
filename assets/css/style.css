@@ -104,6 +104,7 @@ button:hover {
 
 /* buttons end */
 
+/* a.top start */
 a.top { 
     display: block;
     font-size: 1.5vw;
@@ -123,6 +124,8 @@ a.top:hover{
     border: 2px inset red;
     border-radius: 50%;
 }
+
+/* a.top end */
 
 @media screen and (max-width:700px) {
     div.flex {
