@@ -29,4 +29,38 @@ document.getElementById("submit").onclick= function milkProduced(mp){
         document.getElementById("yearly").value = "The income generated yearly from this production is sh."+ pricePerLitre*year*totalLitres + " or sh." + pricePerLitre*leapyear*totalLitres + " for a leap year.";
 
     };
+
+    document.getElementById("months").onclick = function monthlyincome(mi){
+        const months = { // create an object
+            january : 31,
+            february : 29,
+            march : 31,
+            april : 30,
+            may : 31,
+            june : 30,
+            july : 31,
+            august : 31,
+            september : 30,
+            october : 31,
+            november : 30,
+            december : 31
+        }
+        const pricePerLitre = 45; 
+
+        // Access object values-number of days for each month, and use them in the calculating monthly income
+        document.getElementById("jan").innerHTML= "Sh." + totalLitres*months.january*pricePerLitre;
+        document.getElementById("feb").innerHTML= "Sh." + totalLitres*months.february*pricePerLitre;
+        document.getElementById("mar").innerHTML= "Sh." + totalLitres*months.march*pricePerLitre;
+        document.getElementById("apr").innerHTML= "Sh." + totalLitres*months.april*pricePerLitre;
+        document.getElementById("may").innerHTML= "Sh." + totalLitres*months.may*pricePerLitre;
+        document.getElementById("jun").innerHTML= "Sh." + totalLitres*months.june*pricePerLitre;
+        document.getElementById("jul").innerHTML= "Sh." + totalLitres*months.july*pricePerLitre;
+        document.getElementById("aug").innerHTML= "Sh." + totalLitres*months.august*pricePerLitre;
+        document.getElementById("sep").innerHTML= "Sh." + totalLitres*months.september*pricePerLitre;
+        document.getElementById("oct").innerHTML= "Sh." + totalLitres*months.october*pricePerLitre;
+        document.getElementById("nov").innerHTML= "Sh." + totalLitres*months.november*pricePerLitre;
+        document.getElementById("dec").innerHTML= "Sh." + totalLitres*months.december*pricePerLitre;
+
+    
+    }
 }
