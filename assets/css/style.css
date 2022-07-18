@@ -36,4 +36,23 @@ a:hover {
 p {font-size: 2.3vw;}
 
 h1 {font-size: 3vw;}
+
 h2 {font-size: 2.7vw;}
+
+div.flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15vh;
+}
+
+div.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 50vw;
+    height: 80vh;
+    border-radius: 10%;
+}
