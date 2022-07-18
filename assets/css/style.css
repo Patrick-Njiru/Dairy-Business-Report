@@ -112,3 +112,23 @@ button:hover {
         height: 50vh;
     }
 }
+
+a.top { 
+    display: block;
+    font-size: 1.5vw;
+    color: red;
+    background-color: black;
+    width: 5vw;
+    margin-bottom: 5vh;
+    position: relative;
+    border-radius: 50%;
+    padding-left: 2vw;
+    left: 70vw;
+}
+
+a.top:hover{
+    background-color: beige;
+    color: black;
+    border: 2px inset red;
+    border-radius: 50%;
+}
