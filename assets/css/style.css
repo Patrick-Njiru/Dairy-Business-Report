@@ -77,6 +77,7 @@ form {
     border-radius: 50%;
     border: 2px ridge ;
     text-align: center;
+    background-color: darkgray;
 }
 
 /* Form end */
@@ -103,16 +104,6 @@ button:hover {
 
 /* buttons end */
 
-@media screen and (max-width:700px) {
-    div.flex {
-        display: inline;
-    }
-    img {
-        width: 90vw;
-        height: 50vh;
-    }
-}
-
 a.top { 
     display: block;
     font-size: 1.5vw;
@@ -131,4 +122,14 @@ a.top:hover{
     color: black;
     border: 2px inset red;
     border-radius: 50%;
+}
+
+@media screen and (max-width:700px) {
+    div.flex {
+        display: inline;
+    }
+    img {
+        width: 90vw;
+        height: 50vh;
+    }
 }
