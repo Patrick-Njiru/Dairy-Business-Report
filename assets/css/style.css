@@ -1,0 +1,140 @@
+body {
+    width: 95%;
+    margin: auto;
+    line-height: 5vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+
+/* Navigation bar start */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: orangered;
+    margin-bottom: 10vh;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50vw;
+    font-weight: 700;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    font-size: 2vw;
+}
+a:hover {
+    border-bottom: 2px orange solid;
+}
+
+/* Navigation bar end */
+
+p {font-size: 2.3vw;}
+
+h1 {font-size: 3vw;}
+
+h2 {font-size: 2.7vw;}
+
+/* Div.flex Start */
+
+div.flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15vh;
+}
+
+div.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10%;
+}
+
+/* Div.flex end */
+
+/*  Form start */
+
+form {
+    width: 70%;
+    height: 40vh;
+    margin: 10vh auto;
+    padding-top: 10vh;
+    font-size: 2vw;
+    font-weight: 700;
+    border-radius: 50%;
+    border: 2px ridge ;
+    text-align: center;
+    background-color: darkgray;
+}
+
+/* Form end */
+
+/* Ol start */
+
+ol {font-size: 2vw;}
+
+ol li {margin-bottom: 2vh;}
+
+/* Ol end */
+
+/* buttons start */
+
+button {
+    background-color: red;
+    color: black;
+    font-size: 2vw;
+}
+button:hover {
+    background-color: black;
+    color: brown;
+}
+
+/* buttons end */
+
+/* a.top start */
+a.top { 
+    display: block;
+    font-size: 1.5vw;
+    color: red;
+    background-color: black;
+    width: 5vw;
+    margin-bottom: 5vh;
+    position: relative;
+    border-radius: 50%;
+    padding-left: 2vw;
+    left: 70vw;
+}
+
+a.top:hover{
+    background-color: beige;
+    color: black;
+    border: 2px inset red;
+    border-radius: 50%;
+}
+
+/* a.top end */
+
+.outputs, .income-output {font-size: 2vw;}
+
+@media screen and (max-width:700px) {
+    div.flex {
+        display: inline;
+    }
+    img {
+        width: 90vw;
+        height: 50vh;
+    }
+}
