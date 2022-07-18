@@ -77,3 +77,10 @@ form {
 }
 
 /* Form end */
+
+/* Ol start */
+ol {font-size: 2vw;}
+
+ol li {margin-bottom: 2vh;}
+
+/* Ol end */
