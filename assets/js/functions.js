@@ -17,5 +17,16 @@ document.getElementById("submit").onclick= function milkProduced(mp){
     document.getElementById("output4").value = "shed 4 has produced " + shed4.value + " litres of milk";
     document.getElementById("summation").value =  "The total amount of milk from all the sheds is " + totalLitres + " litres";
 
-    
+    // Second function to use the variables of the first function to calculate income
+    document.getElementById("income").onclick = function incomeGenerated(ig){
+
+        const pricePerLitre = 45; // create new variables to make the code below easier to understand
+        const year=365;
+        const biweekly=14;
+        const leapyear=366;
+
+        document.getElementById("biweekly").value = "The income generated biweekly from this production is sh."+ pricePerLitre*biweekly*totalLitres;
+        document.getElementById("yearly").value = "The income generated yearly from this production is sh."+ pricePerLitre*year*totalLitres + " or sh." + pricePerLitre*leapyear*totalLitres + " for a leap year.";
+
+    };
 }
