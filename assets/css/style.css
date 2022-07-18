@@ -32,3 +32,8 @@ a {
 a:hover {
     border-bottom: 2px orange solid;
 }
+
+p {font-size: 2.3vw;}
+
+h1 {font-size: 3vw;}
+h2 {font-size: 2.7vw;}
