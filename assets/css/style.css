@@ -59,7 +59,7 @@ div.flex-col {
 
 img {
     width: 50vw;
-    height: 80vh;
+    height: 70vh;
     border-radius: 10%;
 }
 
@@ -109,5 +109,6 @@ button:hover {
     }
     img {
         width: 90vw;
+        height: 50vh;
     }
 }
