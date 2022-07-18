@@ -102,3 +102,12 @@ button:hover {
 }
 
 /* buttons end */
+
+@media screen and (max-width:700px) {
+    div.flex {
+        display: inline;
+    }
+    img {
+        width: 90vw;
+    }
+}
