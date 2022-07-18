@@ -2,11 +2,12 @@
  amount of milk from ech shed and total amount */
 document.getElementById("submit").onclick= function milkProduced(mp){
     let shed = ({
-        shedA:document.getElementById("shed1"),    // to collect data from each shed with its respective id attribute
-        shedB:document.getElementById("shed2"),
-        shedC:document.getElementById("shed3"),
-        shedD:document.getElementById("shed4"),
+        shedOne:document.getElementById("shed1"),    // to collect data from each shed with its respective id attribute
+        shedTwo:document.getElementById("shed2"),
+        shedThree:document.getElementById("shed3"),
+        shedFour:document.getElementById("shed4"),
     })
+    const pricePerLitre = 45; 
 
     let totalLitres= (Number(shed1.value)+Number(shed2.value)+Number(shed3.value)+Number(shed4.value)); // total amount of milk per day
     // use function Number() to convert strings collected from form to number data types.
@@ -19,8 +20,6 @@ document.getElementById("submit").onclick= function milkProduced(mp){
 
     // Second function to use the variables of the first function to calculate income
     document.getElementById("income").onclick = function incomeGenerated(ig){
-
-        const pricePerLitre = 45; // create new variables to make the code below easier to understand
         const year=365;
         const biweekly=14;
         const leapyear=366;
@@ -45,7 +44,6 @@ document.getElementById("submit").onclick= function milkProduced(mp){
             november : 30,
             december : 31
         }
-        const pricePerLitre = 45; 
 
         // Access object values-number of days for each month, and use them in the calculating monthly income
         document.getElementById("jan").innerHTML= "Sh." + totalLitres*months.january*pricePerLitre;
