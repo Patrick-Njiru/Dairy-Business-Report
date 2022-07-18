@@ -7,6 +7,7 @@ body {
 }
 
 /* Navigation bar start */
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -43,6 +44,7 @@ h1 {font-size: 3vw;}
 h2 {font-size: 2.7vw;}
 
 /* Div.flex Start */
+
 div.flex {
     display: flex;
     justify-content: space-evenly;
@@ -64,6 +66,7 @@ img {
 /* Div.flex end */
 
 /*  Form start */
+
 form {
     width: 70%;
     height: 40vh;
@@ -79,8 +82,23 @@ form {
 /* Form end */
 
 /* Ol start */
+
 ol {font-size: 2vw;}
 
 ol li {margin-bottom: 2vh;}
 
 /* Ol end */
+
+/* buttons start */
+
+button {
+    background-color: red;
+    color: black;
+    font-size: 2vw;
+}
+button:hover {
+    background-color: black;
+    color: brown;
+}
+
+/* buttons end */
