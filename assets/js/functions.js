@@ -8,11 +8,14 @@ document.getElementById("submit").onclick= function milkProduced(mp){
         shedD:document.getElementById("shed4"),
     })
 
-    let totalLitres= (shed1.value+shed2.value+shed3.value+shed4.value); // total amount of milk per day
+    let totalLitres= (Number(shed1.value)+Number(shed2.value)+Number(shed3.value)+Number(shed4.value)); // total amount of milk per day
+    // use function Number() to convert strings collected from form to number data types.
 
     document.getElementById("output1").value = "shed 1 has produced " + shed1.value + " litres of milk"; // output in html under daily report
     document.getElementById("output2").value = "shed 2 has produced " + shed2.value + " litres of milk";
     document.getElementById("output3").value = "shed 3 has produced " + shed3.value + " litres of milk";
     document.getElementById("output4").value = "shed 4 has produced " + shed4.value + " litres of milk";
     document.getElementById("summation").value =  "The total amount of milk from all the sheds is " + totalLitres + " litres";
+
+    
 }
