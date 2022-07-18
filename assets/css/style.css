@@ -5,3 +5,30 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: bisque;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: orangered;
+    margin-bottom: 10vh;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50vw;
+    font-weight: 700;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    font-size: 2vw;
+}
+a:hover {
+    border-bottom: 2px orange solid;
+}
