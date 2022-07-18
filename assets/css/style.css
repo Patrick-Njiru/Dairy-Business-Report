@@ -62,3 +62,18 @@ img {
 }
 
 /* Div.flex end */
+
+/*  Form start */
+form {
+    width: 70%;
+    height: 40vh;
+    margin: 10vh auto;
+    padding-top: 10vh;
+    font-size: 2vw;
+    font-weight: 700;
+    border-radius: 50%;
+    border: 2px ridge ;
+    text-align: center;
+}
+
+/* Form end */
