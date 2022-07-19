@@ -2,7 +2,7 @@
 ##### By Patrick Njiru
 #
 ## Description
-##### A dynamic reporting website which takes inputs of the milk production on a farm by different cow sheds and generates a report on the amount of milk produced per the day and the income generated from selling it to Brookside Dairies for various time intervals.
+##### A dynamic web page to be a reporting tool which takes inputs of the milk production on a farm by different cow sheds and generates a report on the amount of milk produced per the day and the income generated from selling it to Brookside Dairies for various time intervals.
 
 ## Installation
 
